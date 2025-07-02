@@ -11,7 +11,7 @@ def main():
     # --- MySQL Connection ---
     try:
         conn = mysql.connector.connect(
-            host="localhost",
+            host="192.168.137.235",
             user="root",
             password="system",
             database="a"
